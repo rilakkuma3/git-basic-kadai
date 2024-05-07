@@ -1,0 +1,27 @@
+sakura@makinosakisakuranonotobukkukonpyuta ~ % mkdir git_challenge
+mkdir: git_challenge: File exists
+sakura@makinosakisakuranonotobukkukonpyuta ~ % cd git_challenge
+sakura@makinosakisakuranonotobukkukonpyuta git_challenge % git add hello_world.txt
+sakura@makinosakisakuranonotobukkukonpyuta git_challenge % git commit -m"最初の コミット"
+[master (root-commit) 1866380] 最初のコミット
+ 2 files changed, 2 insertions(+)
+ create mode 160000 Documents/git_challenge
+ create mode 100644 git_challenge/hello_world.txt
+sakura@makinosakisakuranonotobukkukonpyuta git_challenge % git add hello_world.txt
+sakura@makinosakisakuranonotobukkukonpyuta git_challenge % git commit -m"2回目のコミット"
+[master 37f9de7] 2回目のコミット
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+sakura@makinosakisakuranonotobukkukonpyuta git_challenge % 
+sakura@makinosakisakuranonotobukkukonpyuta git_challenge % git log
+commit 37f9de7ec7f7266a641e56c4d0b402210527a18e (HEAD -> master)
+Author: rilakkuma3 <xxxibgdrgn.s0818@i.softbank.jp>
+Date:   Tue May 7 14:41:48 2024 +0900
+
+    2回目のコミット
+
+commit 18663808b3fb8b6101b17eff94d155a846972239
+Author: rilakkuma3 <xxxibgdrgn.s0818@i.softbank.jp>
+Date:   Tue May 7 14:40:27 2024 +0900
+
+    最初のコミット
+sakura@makinosakisakuranonotobukkukonpyuta git_challenge % 
